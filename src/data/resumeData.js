@@ -6,10 +6,10 @@ export const profile = {
   email: "yankuete@gmail.com",
   github: "https://github.com/ykuete",
   availability: "Open to full-time opportunities — available immediately",
-  gpa: "3.3",
+  gpa: "3.4",
   graduation: "May 2027",
   summary:
-    "Results-driven Computer Science student with hands-on experience spanning network security, database engineering, and DevOps automation. Recently completed coursework in Computer Security, Computer Networks, Algorithms, and Database Systems — building practical skills in firewall configuration, encryption, authentication, SQL injection remediation, and security monitoring, alongside relational database design (3NF normalization, ER modeling) and PostgreSQL/PHP development. Combines this with real-world DevOps tooling (Docker, Jenkins, Ansible), AWS-certified cloud knowledge, and strong programming fundamentals in C, C++, Python, and Bash to turn manual workflows into repeatable, automated processes.",
+    "Results-driven Computer Science student with hands-on experience spanning network security, database engineering, and DevOps automation. Recently completed coursework in Computer Security, Computer Networks, and Cybersecurity fundamentals. Proven track record of automating enterprise IT workflows, reducing manual errors, and improving operational efficiency.",
 };
 
 export const skillGroups = [
@@ -63,7 +63,7 @@ export const experience = [
     dates: "2023 – Present",
     bullets: [
       "Diagnosed and repaired HP, Dell, and Mac assets across large-scale enterprise environments, ensuring minimal downtime for end users.",
-      "Wrote custom Bash and Python scripts to triage and resolve CrowdStrike-related IT outages, restoring critical system functionality and automating recurring remediation steps so technicians could resolve similar incidents in minutes rather than hours.",
+      "Wrote custom Bash and Python scripts to triage and resolve CrowdStrike-related IT outages, restoring critical system functionality and automating recurring remediation steps so technicians could focus on complex issues.",
       "Streamlined hardware-swap workflows by scripting asset-tracking updates, cutting manual data-entry time and reducing inventory errors.",
     ],
   },
@@ -72,7 +72,7 @@ export const experience = [
     org: "FebDesign",
     dates: "2016 – 2021",
     bullets: [
-      "Designed and documented construction projects ensuring strict compliance with engineering standards and safety regulations, and coordinated cross-functional teams — building the project-management discipline that now informs structured, sprint-based development work.",
+      "Designed and documented construction projects ensuring strict compliance with engineering standards and safety regulations, and coordinated cross-functional teams — building the project-management discipline that now drives my technical work.",
     ],
   },
 ];
@@ -123,7 +123,7 @@ export const projects = [
     summary:
       "Low-level client/server networking in C, covering both connection-oriented and connectionless communication.",
     bullets: [
-      "Implemented TCP stream-socket and UDP datagram client/server systems in C, demonstrating reliable connection-oriented exchange and connectionless, packet-level communication between networked processes.",
+      "Implemented TCP stream-socket and UDP datagram client/server systems in C, demonstrating reliable connection-oriented exchange and connectionless, packet-level communication between networked peers.",
     ],
     link: "https://github.com/ykuete/streamSocket_server_Clanguage",
     link2: "https://github.com/ykuete/UDP-Datagram-Client-Server-Lab-2-",
@@ -150,7 +150,7 @@ export const projects = [
       "A physical, interactive gaming device built at CU Denver to spark social interaction — refined through real user testing.",
     bullets: [
       "Led end-to-end engineering lifecycle of a physical gaming device designed to facilitate social interaction.",
-      "Executed a data-driven design pivot by conducting real-time user testing and translating feedback into revised technical requirements — mirroring agile iteration practices used in software delivery.",
+      "Executed a data-driven design pivot by conducting real-time user testing and translating feedback into revised technical requirements — mirroring agile iteration practices used in software development.",
     ],
     link: null,
   },
@@ -172,77 +172,77 @@ export const chatKnowledge = [
     keywords: ["who", "yannick", "introduce", "about you", "background", "bio"],
     question: "Who is Yannick?",
     answer:
-      "Yannick Kuete is a Computer Science student at CU Denver (graduating May 2027, 3.3 GPA) and a Software Developer & Automation Engineer. He works at the intersection of DevOps automation, cybersecurity/networking, and database engineering — and came to software from a first career as a civil engineer, which is where his project-management discipline comes from.",
+      "Yannick Kuete is a Computer Science student at CU Denver (graduating May 2027, 3.4 GPA) and a Software Developer & Automation Engineer. He works at the intersection of DevOps automation, cybersecurity, networking, and database engineering.",
   },
   {
     id: "current-role",
     keywords: ["job", "work", "current role", "wwts", "customer service engineer", "employer"],
     question: "What does Yannick do at WWTS?",
     answer:
-      "Yannick is a Customer Service Engineer at WWTS (2023–present). He diagnoses and repairs enterprise HP, Dell, and Mac hardware, and — more importantly — writes custom Bash and Python scripts that triage CrowdStrike-related IT outages, turning incidents that used to take hours into fixes that take minutes.",
+      "Yannick is a Customer Service Engineer at WWTS (2023–present). He diagnoses and repairs enterprise HP, Dell, and Mac hardware, and — more importantly — writes custom Bash and Python scripts to automate IT remediation and streamline asset-tracking workflows.",
   },
   {
     id: "civil-engineer",
     keywords: ["civil engineer", "febdesign", "construction", "career change", "previous career"],
     question: "Was Yannick a civil engineer before?",
     answer:
-      "Yes — Yannick worked as a Civil Engineer at FebDesign (2016–2021) in Cameroon, designing and documenting construction projects and coordinating cross-functional teams. That project-management discipline now shows up in how he runs structured, sprint-based development work.",
+      "Yes — Yannick worked as a Civil Engineer at FebDesign (2016–2021) in Cameroon, designing and documenting construction projects and coordinating cross-functional teams. That project-management foundation informs his software engineering approach today.",
   },
   {
     id: "skills-security",
     keywords: ["security", "cybersecurity", "firewall", "encryption", "sql injection", "authentication"],
     question: "What cybersecurity skills does Yannick have?",
     answer:
-      "From CU Denver's Computer Security coursework, Yannick has hands-on experience with firewall configuration, encryption and authentication protocols, SQL-injection identification and remediation, and network security monitoring — including analyzing real attack traffic.",
+      "From CU Denver's Computer Security coursework, Yannick has hands-on experience with firewall configuration, encryption and authentication protocols, SQL-injection identification and remediation, security monitoring, and network attack analysis.",
   },
   {
     id: "skills-network",
     keywords: ["network", "networking", "tcp", "udp", "socket"],
     question: "What networking experience does Yannick have?",
     answer:
-      "Yannick completed Introduction to Computer Networks and built two hands-on socket-programming projects in C: a TCP stream-socket client/server system for reliable, connection-oriented exchange, and a UDP datagram client/server app for connectionless, packet-level communication.",
+      "Yannick completed Introduction to Computer Networks and built two hands-on socket-programming projects in C: a TCP stream-socket client/server system for reliable, connection-oriented exchange, and a UDP datagram system for connectionless communication.",
   },
   {
     id: "skills-database",
     keywords: ["database", "sql", "postgres", "postgresql", "3nf", "er diagram", "normalization"],
     question: "What database experience does Yannick have?",
     answer:
-      "Yannick designed and built the Materials Selection Database project: a fully normalized (3NF) relational database with ER diagrams, schema architecture, and relational-algebra-formalized queries, served through a PHP front end on a PostgreSQL backend.",
+      "Yannick designed and built the Materials Selection Database project: a fully normalized (3NF) relational database with ER diagrams, schema architecture, and relational-algebra-formalized queries, backed by PostgreSQL and a PHP front end.",
   },
   {
     id: "skills-devops",
     keywords: ["devops", "docker", "jenkins", "ansible", "aws", "ci/cd", "automation", "cloud"],
     question: "What DevOps and automation tools does Yannick use?",
     answer:
-      "Yannick works with Docker, Jenkins, and Ansible for automation and CI/CD, is AWS Certified Solutions Architect – Associate (2024), and regularly scripts infrastructure and remediation workflows in Bash and Python to remove manual steps from IT operations.",
+      "Yannick works with Docker, Jenkins, and Ansible for automation and CI/CD, is AWS Certified Solutions Architect – Associate (2024), and regularly scripts infrastructure and remediation workflows using Bash and Python.",
   },
   {
     id: "projects-list",
     keywords: ["projects", "portfolio", "built", "github"],
     question: "What projects has Yannick built?",
     answer:
-      "Four stand out: the Materials Selection Database (PostgreSQL/PHP), a set of Network Socket Programming Labs in C (TCP + UDP), a Modern Tetris Clone in C++ with Raylib, and \u201CWheel of Hopes,\u201D a physical interactive prototype built at CU Denver. You can see all of them in the Projects section above, with GitHub links where available.",
+      "Four stand out: the Materials Selection Database (PostgreSQL/PHP), a set of Network Socket Programming Labs in C (TCP + UDP), a Modern Tetris Clone in C++ with Raylib, and the "Wheel of Hopes" physical interactive prototype.",
   },
   {
     id: "tetris",
     keywords: ["tetris", "game", "raylib", "c++"],
     question: "Tell me about the Tetris project.",
     answer:
-      "Yannick built a fully functional Tetris clone in C++ with Raylib, applying clean OOP architecture. It includes collision detection, line-clearing, and adaptive difficulty, plus a Makefile-based build system for one-command compilation across platforms.",
+      "Yannick built a fully functional Tetris clone in C++ with Raylib, applying clean OOP architecture. It includes collision detection, line-clearing, and adaptive difficulty, plus a Makefile-based build system for cross-platform compilation.",
   },
   {
     id: "wheel",
     keywords: ["wheel of hopes", "prototype", "hardware", "user testing"],
-    question: "What was the \u201CWheel of Hopes\u201D project?",
+    question: "What was the \"Wheel of Hopes\" project?",
     answer:
-      "A physical, interactive gaming device Yannick led end-to-end at CU Denver, designed to spark social interaction. He ran real-time user testing and pivoted the design based on that feedback — the same iterate-on-feedback loop used in agile software delivery.",
+      "A physical, interactive gaming device Yannick led end-to-end at CU Denver, designed to spark social interaction. He ran real-time user testing and pivoted the design based on that feedback — applying agile iteration in hardware.",
   },
   {
     id: "education",
     keywords: ["education", "degree", "school", "university", "gpa", "graduation", "college"],
     question: "What is Yannick's education?",
     answer:
-      "Yannick is pursuing a B.A. in Computer Science at the University of Colorado Denver (GPA 3.3, anticipated graduation May 2027). He also holds an Associate of Science in Computer Science from Community College of Aurora (2022–2025), and a Civil Engineering degree from University UIT Bandjoun, Cameroon (2012–2016).",
+      "Yannick is pursuing a B.A. in Computer Science at the University of Colorado Denver (GPA 3.4, anticipated graduation May 2027). He also holds an Associate of Science in Computer Science from Community College of Aurora (2022–2025).",
   },
   {
     id: "current-courses",
@@ -263,7 +263,7 @@ export const chatKnowledge = [
     keywords: ["contact", "email", "phone", "reach", "hire", "available", "opportunity"],
     question: "How can I contact Yannick, and is he available?",
     answer:
-      `Yannick is open to full-time opportunities and available immediately. Reach him at ${"yankuete@gmail.com"} or (720) 694-2513, or connect on GitHub at github.com/ykuete — there's also a Contact section below with quick links.`,
+      `Yannick is open to full-time opportunities and available immediately. Reach him at yankuete@gmail.com or (720) 694-2513, or connect on GitHub at github.com/ykuete.`,
   },
   {
     id: "languages",
