@@ -80,7 +80,7 @@ export const experience = [
 export const education = [
   {
     school: "University of Colorado Denver",
-    detail: "Bachelor of Arts, Computer Science | GPA: 3.3",
+    detail: "Bachelor of Arts, Computer Science | GPA: 3.4",
     dates: "Anticipated Graduation: May 2027",
     extra: [
       "Completed Coursework: Data Concept Systems, Algorithms, Computer Security, Introduction to Computer Networks",
