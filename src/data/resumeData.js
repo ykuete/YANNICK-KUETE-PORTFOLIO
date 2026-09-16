@@ -221,7 +221,7 @@ export const chatKnowledge = [
     keywords: ["projects", "portfolio", "built", "github"],
     question: "What projects has Yannick built?",
     answer:
-      "Four stand out: the Materials Selection Database (PostgreSQL/PHP), a set of Network Socket Programming Labs in C (TCP + UDP), a Modern Tetris Clone in C++ with Raylib, and the "Wheel of Hopes" physical interactive prototype.",
+      "Four stand out: the Materials Selection Database (PostgreSQL/PHP), a set of Network Socket Programming Labs in C (TCP + UDP), a Modern Tetris Clone in C++ with Raylib, and the \"Wheel of Hopes\" physical interactive prototype.",
   },
   {
     id: "tetris",
